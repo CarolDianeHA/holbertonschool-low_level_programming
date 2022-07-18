@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Script that runs a C file throught the preprocessor and save the result into another file.
+gcc -E "$CFILE" -o CFILE.c
