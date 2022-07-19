@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * Prints Programming is like building a multilingual puzzle
+ * Description: Prints Programming is like building a multilingual puzzle
  * Using puts, printf is not allowed
  * should en with the value 0
  */
