@@ -3,7 +3,7 @@
 
 /**
  * print_line - draws a straight line in the terminal
- *
+ * @n: number of times
  * Return: 0
  */
 
