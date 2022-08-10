@@ -2,7 +2,8 @@
 #include "main.h"
 /**
  * print_array - function that prints the array
- * @a - variable with the array
+ * @a: variable with the array
+ * @n: number of elements of the array
  * Return: 0
  */
 void print_array(int *a, int n)
