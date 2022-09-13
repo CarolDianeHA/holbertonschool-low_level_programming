@@ -1,6 +1,6 @@
 # Structures and typedef
 
-Structure
+## Structure
 : A structure is a user defined data type available in C that allows to combine data items of different kinkds.
 
 Structure Declarations
@@ -24,7 +24,7 @@ int main(void)
 }
 ```
 
-typedef
+## typedef
 : The C programming language provides a keyword called typedef, which you can use to give a type, a new name.
 
 - After this type definition, the identifier 'byte' can be used as an abbreviation for the type unsigned char, like in the example.
