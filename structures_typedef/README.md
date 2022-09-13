@@ -1,10 +1,10 @@
 # Structures and typedef
 
-### Structure
+## Structure
 Structure
 : A structure is a user defined data type available in C that allows to combine data items of different kinkds.
 
-Structure Declarations
+### Structure Declarations
 
 - You can define a structure in the global scope of your program (outside of all your functions, just like the functions prototypes).
 - You can declare elements of your structure in its scope.
@@ -25,7 +25,7 @@ int main(void)
 }
 ```
 
-### typedef
+## typedef
 typedef
 : The C programming language provides a keyword called typedef, which you can use to give a type, a new name.
 
