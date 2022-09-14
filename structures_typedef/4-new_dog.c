@@ -29,12 +29,12 @@ j++;
 ar[j] = 0;
 return (ar);
 }
-
 /**
- * new_dog - Function that creates a new dog
+ * new_dog - function that creates a new dog
  * @name: dog name
  * @age: dog age
  * @owner: owner's dog name
+ * Return: 0
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
