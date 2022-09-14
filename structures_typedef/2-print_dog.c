@@ -11,13 +11,9 @@ if (d == NULL)
 {
 ;
 }
-if (d->name == NULL)
+if (d->name == NULL || d->owner == NULL)
 {
-printf("Name: (nil)\n");
-}
-if (d->owner == NULL)
-{
-printf("Owner: (nil)\n");
+printf("Name: (nil)\nAge: %f\nOwner: (nil)\n", d->age);
 }
 else
 {
