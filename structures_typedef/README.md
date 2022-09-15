@@ -45,7 +45,7 @@ int main(void)
     return(0);
 }
 ```
-> Example - step 0
+<details><summary>Example - step 0</summary>
 
 ![step0](https://github.com/CarolDianeHA/holbertonschool-low_level_programming/blob/main/structures_typedef/README%20Images/Step0.png)
 
@@ -69,6 +69,7 @@ int main(void)
     return(0);
 }
 ```
+</details>
 
 <details><summary>Example - step 1</summary>
 
@@ -96,7 +97,7 @@ int main(void)
 ```
 </details>
 
-> Example - step 2
+<details><summary>Example - step 2</summary>
 
 ![stpe2](https://github.com/CarolDianeHA/holbertonschool-low_level_programming/blob/main/structures_typedef/README%20Images/Step2.png)
 
@@ -120,8 +121,9 @@ int main(void)
     return(0);
 }
 ```
+</details>
 
-> Example - step 3
+<details><summary>Example - step 3</summary>
 
 ![step3](https://github.com/CarolDianeHA/holbertonschool-low_level_programming/blob/main/structures_typedef/README%20Images/Step3.png)
 
@@ -145,6 +147,7 @@ int main(void)
     return(0);
 }
 ```
+</details>
 
 ## typedef
 typedef
