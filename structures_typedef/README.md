@@ -47,7 +47,7 @@ int main(void)
 ```
 > Example - step 0
 
-![step0](vscode-remote://ssh-remote%2Bdefault/home/vagrant/holbertonschool-low_level_programming/structures_typedef/Images/Step0.png)
+![step0](https://github.com/CarolDianeHA/holbertonschool-low_level_programming/blob/main/structures_typedef/README%20Images/Step0.png)
 
 ```c
 #include <stdio.h>
@@ -72,7 +72,7 @@ int main(void)
 
 > Example - step 1
 
-![step1](vscode-remote://ssh-remote%2Bdefault/home/vagrant/holbertonschool-low_level_programming/structures_typedef/README%20Images/Step1.png)
+![step1](https://github.com/CarolDianeHA/holbertonschool-low_level_programming/blob/main/structures_typedef/README%20Images/Step1.png)
 
 ```c
 #include <stdio.h>
@@ -97,7 +97,7 @@ int main(void)
 
 > Example - step 2
 
-![stpe2](vscode-remote://ssh-remote%2Bdefault/home/vagrant/holbertonschool-low_level_programming/structures_typedef/README%20Images/Step2.png)
+![stpe2](https://github.com/CarolDianeHA/holbertonschool-low_level_programming/blob/main/structures_typedef/README%20Images/Step2.png)
 
 ```c
 #include <stdio.h>
@@ -122,7 +122,7 @@ int main(void)
 
 > Example - step 3
 
-![step3](vscode-remote://ssh-remote%2Bdefault/home/vagrant/holbertonschool-low_level_programming/structures_typedef/README%20Images/Step3.png)
+![step3](https://github.com/CarolDianeHA/holbertonschool-low_level_programming/blob/main/structures_typedef/README%20Images/Step3.png)
 
 ```c
 #include <stdio.h>
