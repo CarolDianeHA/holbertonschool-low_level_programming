@@ -27,7 +27,7 @@ int main(void)
 
 ### Structures
 
-- You can access the elements of your structure by using the '.' symbol.
+- You can access the elements of your structure by using the `'.'` symbol.
 
 ```c
 struct User
