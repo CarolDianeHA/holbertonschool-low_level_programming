@@ -25,6 +25,126 @@ int main(void)
 }
 ```
 
+### Structures
+
+- You can access the elements of your structure by using the '.' symbol.
+
+```c
+struct User
+{
+    char *name;
+    char *email;
+    int age;
+};
+
+int main(void)
+{
+    struct User user;
+
+    user.name = "Foo Bar";
+    return(0);
+}
+```
+> Example - step 0
+
+![step0](vscode-remote://ssh-remote%2Bdefault/home/vagrant/holbertonschool-low_level_programming/structures_typedef/Images/Step0.png)
+
+```c
+#include <stdio.h>
+
+struct User
+{
+    char *name;
+    char *email;
+    int age;
+};
+
+int main(void)
+{
+    struct User user;
+
+    user.name = "Foo Bar";
+    user.email = "foo@hbtn.io";
+    user.age = 98;
+    return(0);
+}
+```
+
+> Example - step 1
+
+![step1](vscode-remote://ssh-remote%2Bdefault/home/vagrant/holbertonschool-low_level_programming/structures_typedef/README%20Images/Step1.png)
+
+```c
+#include <stdio.h>
+
+struct User
+{
+    char *name;
+    char *email;
+    int age;
+};
+
+int main(void)
+{
+    struct User user;
+
+    user.name = "Foo Bar";
+    user.email = "foo@hbtn.io";
+    user.age = 98;
+    return(0);
+}
+```
+
+> Example - step 2
+
+![stpe2](vscode-remote://ssh-remote%2Bdefault/home/vagrant/holbertonschool-low_level_programming/structures_typedef/README%20Images/Step2.png)
+
+```c
+#include <stdio.h>
+
+struct User
+{
+    char *name;
+    char *email;
+    int age;
+};
+
+int main(void)
+{
+    struct User user;
+
+    user.name = "Foo Bar";
+    user.email = "foo@hbtn.io";
+    user.age = 98;
+    return(0);
+}
+```
+
+> Example - step 3
+
+![step3](vscode-remote://ssh-remote%2Bdefault/home/vagrant/holbertonschool-low_level_programming/structures_typedef/README%20Images/Step3.png)
+
+```c
+#include <stdio.h>
+
+struct User
+{
+    char *name;
+    char *email;
+    int age;
+};
+
+int main(void)
+{
+    struct User user;
+
+    user.name = "Foo Bar";
+    user.email = "foo@hbtn.io";
+    user.age = 98;
+    return(0);
+}
+```
+
 ## typedef
 typedef
 : The C programming language provides a keyword called typedef, which you can use to give a type, a new name.
