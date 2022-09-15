@@ -70,7 +70,7 @@ int main(void)
 }
 ```
 
-> Example - step 1
+<details><summary>Example - step 1</summary>
 
 ![step1](https://github.com/CarolDianeHA/holbertonschool-low_level_programming/blob/main/structures_typedef/README%20Images/Step1.png)
 
@@ -94,6 +94,7 @@ int main(void)
     return(0);
 }
 ```
+</details>
 
 > Example - step 2
 
