@@ -153,7 +153,7 @@ int main(void)
 
 - To access elements of a pointer to a structure, you have to dereference the pointer an then access to the data using the `'.'` symbol.
 
-# But
+### But
 - There is a simple way to do that, just by using `'->'` symbol. This symbol is equivalent to dereferencing `+` using `'.'`.
 
 ```c
