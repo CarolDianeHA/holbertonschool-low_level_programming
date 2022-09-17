@@ -149,6 +149,37 @@ int main(void)
 ```
 </details>
 
+## Pointers to structures
+
+- To access elements of a pointer to a structure, you have to dereference the pointer an then access to the data using the `'.'` symbol.
+
+# But
+- There is a simple way to do that, just by using `'->'` symbol. This symbol is equivalent to dereferencing `+` using `'.'`.
+
+```c
+struct User
+{
+    char *name;
+    char *email;
+    int age;
+};
+
+int main(void)
+{
+    struct User user;
+    struct User *ptr;
+
+    ptr = &user;
+    /* Dereferencing the pointer before access the data with the '.' symbol */
+
+    (*ptr).name = "Foo Bar";
+    /* Using '->' works the same, and is so much easier */
+
+    ptr->email = "foo@hbtn.com";
+    return(0);
+}
+```
+
 ## typedef
 typedef
 : The C programming language provides a keyword called typedef, which you can use to give a type, a new name.
