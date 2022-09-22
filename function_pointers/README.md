@@ -225,3 +225,6 @@ Output
 Returned index is 2
 ```
 The above search function can be used for any data type by writing a separate customized compare().
+
+`Source` https://www.geeksforgeeks.org/function-pointer-in-c/.
+https://img.shields.io/badge/<Source>-<geeksforgeeks>-<blue>
