@@ -34,7 +34,9 @@ Value of a is 10
 ```
 
 Why do we need an extra bracket around function pointers like `fun_ptr` in above example?
-If we remove bracket, then the expression `“void (*fun_ptr)(int)”` becomes `“void *fun_ptr(int)”` which is declaration of a function that returns void pointer.  See following post for details. [How to declare a pointer to a function?](https://www.geeksforgeeks.org/how-to-declare-a-pointer-to-a-function/)
+If we remove bracket, then the expression `“void (*fun_ptr)(int)”` becomes `“void *fun_ptr(int)”` which is declaration of a function that returns void pointer.  
+
+See following post for details. [How to declare a pointer to a function?](https://www.geeksforgeeks.org/how-to-declare-a-pointer-to-a-function/)
 
 ## Following are some interesting facts about function pointers.
 
@@ -136,7 +138,7 @@ int main()
 	return 0;
 }
 ```
-This point in particular is very useful in C. In C, we can use function pointers to avoid code redundancy. For example a simple `[qsort()]`(http://www.cplusplus.com/reference/cstdlib/qsort/) function can be used to sort arrays in ascending order or descending or by any other order in case of array of structures. Not only this, with function pointers and void pointers, it is possible to use qsort for any data type.
+This point in particular is very useful in C. In C, we can use function pointers to avoid code redundancy. For example a simple [qsort()](http://www.cplusplus.com/reference/cstdlib/qsort/) function can be used to sort arrays in ascending order or descending or by any other order in case of array of structures. Not only this, with function pointers and void pointers, it is possible to use qsort for any data type.
 
 ```c
 // An example for qsort and comparator
