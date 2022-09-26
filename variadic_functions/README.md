@@ -14,8 +14,10 @@ In some cases a function can handle any number of values by operating on all of 
 
 Defining and using a variadic function involves three steps:
 
-Define the function as variadic, using an ellipsis (‘…’) in the argument list, and using special macros to access the variable arguments. See [Receiving the Argument Values](https://www.gnu.org/software/libc/manual/html_node/Receiving-Arguments.html).\n
-Declare the function as variadic, using a prototype with an ellipsis (‘…’), in all the files which call it. See [Syntax for Variable Arguments](https://www.gnu.org/software/libc/manual/html_node/Variadic-Prototypes.html).\n
+Define the function as variadic, using an ellipsis (‘…’) in the argument list, and using special macros to access the variable arguments. See [Receiving the Argument Values](https://www.gnu.org/software/libc/manual/html_node/Receiving-Arguments.html).
+
+Declare the function as variadic, using a prototype with an ellipsis (‘…’), in all the files which call it. See [Syntax for Variable Arguments](https://www.gnu.org/software/libc/manual/html_node/Variadic-Prototypes.html).
+
 Call the function by writing the fixed arguments followed by the additional variable arguments. See [Calling Variadic Functions](https://www.gnu.org/software/libc/manual/html_node/Calling-Variadics.html).
 
 ## Example of a Variadic Function
