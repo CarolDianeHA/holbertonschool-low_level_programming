@@ -1,4 +1,4 @@
-# What is a Makefile and how does it work?
+# Makefile
 
 Run and compile your programs more efficiently with this handy automation tool.
 
@@ -8,4 +8,4 @@ If you want to run or update a task when certain files are updated, the `make` u
 sudo apt install make
 ```
 
-[Article Source:](https://opensource.com/article/18/8/what-how-makefile)
+[Article Link](https://opensource.com/article/18/8/what-how-makefile)
