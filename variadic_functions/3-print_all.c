@@ -3,7 +3,6 @@
 #include "variadic_functions.h"
 /**
  * chk_char - prints the char
- * @va_list: list of arguments
  * @list: the type
  * Return: 0
  */
@@ -13,7 +12,6 @@ printf("%c", va_arg(list, int));
 }
 /**
  * chk_int - prints the int
- * @va_list: list of arguments
  * @list: the type
  * Return: 0
  */
@@ -23,7 +21,6 @@ printf("%i", va_arg(list, int));
 }
 /**
  * chk_float - prints the float
- * @va_list: list of arguments
  * @list: the type
  * Return: 0
  */
@@ -33,7 +30,6 @@ printf("%f", va_arg(list, double));
 }
 /**
  * chk_string - prints the string
- * @va_list: list of arguments
  * @list: the type
  * Return: 0
  */
