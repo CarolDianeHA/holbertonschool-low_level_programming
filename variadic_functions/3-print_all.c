@@ -8,7 +8,7 @@
  */
 void chk_char(va_list list)
 {
-printf("%c", va_arg(list, int));
+	printf("%c", va_arg(list, int));
 }
 /**
  * chk_int - prints the int
@@ -17,7 +17,7 @@ printf("%c", va_arg(list, int));
  */
 void chk_int(va_list list)
 {
-printf("%i", va_arg(list, int));
+	printf("%i", va_arg(list, int));
 }
 /**
  * chk_float - prints the float
@@ -26,7 +26,7 @@ printf("%i", va_arg(list, int));
  */
 void chk_float(va_list list)
 {
-printf("%f", va_arg(list, double));
+	printf("%f", va_arg(list, double));
 }
 /**
  * chk_string - prints the string
@@ -35,13 +35,13 @@ printf("%f", va_arg(list, double));
  */
 void chk_string(va_list list)
 {
-char *str;
+	char *str;
 
-str = va_arg(list, char *);
-if (str == NULL)
-str = "(nil)";
+	str = va_arg(list, char *);
+	if (str == NULL)
+		str = "(nil)";
 
-printf("%s", str);
+	printf("%s", str);
 }
 /**
  * print_all - prints anything
@@ -50,35 +50,35 @@ printf("%s", str);
  */
 void print_all(const char * const format, ...)
 {
-check_t types[] = {
-{"c", chk_char},
-{"i", chk_int},
-{"f", chk_float},
-{"s", chk_string},
-{NULL, NULL}
-};
+	check_t types[] = {
+		{"c", chk_char},
+		{"i", chk_int},
+		{"f", chk_float},
+		{"s", chk_string},
+		{NULL, NULL}
+	};
 
-int x = 0, y = 0;
-va_list list;
-char *sep = "";
+	int x = 0, y = 0;
+	va_list list;
+	char *sep = "";
 
-va_start(list, format);
+	va_start(list, format);
 
-while (format && format[x])
-{
-while (types[y].chk)
-{
-if (format[x] == *types[y].chk)
-{
-printf("%s", sep);
-types[y].f(list);
-sep = ", ";
-}
-y++;
-}
-y = 0;
-x++;
-}
-printf("\n");
-va_end(list);
+	while (format && format[x])
+	{
+		while (types[y].chk)
+		{
+			if (format[x] == *types[y].chk)
+			{
+				printf("%s", sep);
+				types[y].f(list);
+				sep = ", ";
+			}
+			y++;
+		}
+		y = 0;
+		x++;
+	}
+	printf("\n");
+	va_end(list);
 }
