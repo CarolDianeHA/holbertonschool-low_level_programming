@@ -19,7 +19,7 @@ Here, the start pointer stores the address of the first node, and at the end, th
 
 The linked list mainly has three types, they are:
 
-<details><summary>1- Singly Linked List</summary>
+<details><summary>1. Singly Linked List</summary>
 
 A singly linked list is the most common type of linked list. Each node has data and an address field that contains a reference to the next node.
 
@@ -27,7 +27,7 @@ A singly linked list is the most common type of linked list. Each node has data 
 
 </details>
 
-<details><summary>2- Doubly Linked List</summary>
+<details><summary>2. Doubly Linked List</summary>
 
 There are two pointer storage blocks in the doubly linked list. The first pointer block in each node stores the address of the previous node. Hence, in the doubly linked inventory, there are three fields that are the previous pointers, that contain a reference to the previous node. Then there is the data, and last you have the next pointer, which points to the next node. Thus, you can go in both directions (backward and forward).
 
@@ -35,7 +35,7 @@ There are two pointer storage blocks in the doubly linked list. The first pointe
 
 </details>
 
-<details><summary>3- Circular Linked List</summary>
+<details><summary>3. Circular Linked List</summary>
 
 The circular linked list is extremely similar to the singly linked list. The only difference is that the last node is connected with the first node, forming a circular loop in the circular linked list.
 
