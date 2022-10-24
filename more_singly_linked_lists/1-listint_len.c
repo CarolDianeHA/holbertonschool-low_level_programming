@@ -1,6 +1,7 @@
 #include "lists.h"
 /**
- * listint_len - function that returns the number of elements linked in the listint_t list.
+ * listint_len - function that returns the number of elements
+ * linked in the listint_t list.
  * @h: list to check
  * Return: the number of elements in the list
  */
