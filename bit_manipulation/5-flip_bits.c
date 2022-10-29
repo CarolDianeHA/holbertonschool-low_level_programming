@@ -12,7 +12,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	int xor = 0;
 	int counter = 0;
 
-	for(xor = 0; xor < 64; xor++)
+	for (xor = 0; xor < 64; xor++)
 	{
 		if (((n >> xor) & 1) != ((m >> xor) & 1))
 			counter++;
