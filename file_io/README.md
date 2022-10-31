@@ -8,8 +8,8 @@ Souce: [wikipedia](https://en.wikipedia.org/wiki/Input/output)
 
 <details><summary>0. Tread lightly, she is near</summary>
 <p>Write a function that reads a text file and prints it to the POSIX standard output.</p>
-<p>* Prototype: ssize_t read_textfile(const char *filename, size_t letters);</p>
-* where letters is the number of letters it should read and print
+<h3>* Prototype: ssize_t read_textfile(const char *filename, size_t letters);</h3>
+<h3>* where letters is the number of letters it should read and print</h3>
 * returns the actual number of letters it could read and print
 * if the file can not be opened or read, return 0
 * if filename is NULL return 0
