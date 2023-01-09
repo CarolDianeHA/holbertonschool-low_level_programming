@@ -7,12 +7,12 @@
     * `Binary, or half-interval`, searches repeatedly target the center of the search structure and divide the search space in half. Comparison search algorithms improve on linear searching by successively eliminating records based on comparisons of the keys until the target record is found, and can be applied on data structures with a defined order.Digital search algorithms work based on the properties of digits in data structures by using numerical keys.
     * Finally, `hashing` directly maps keys to records based on a hash function.
 
-    [Source](https://en.wikipedia.org/wiki/Search_algorithm)
+[Source](https://en.wikipedia.org/wiki/Search_algorithm)
 
 # Space Complexity
 
 * The term Space Complexity is misused for Auxiliary Space at many places. Following are the correct definitions of `Auxiliary Space` and `Space Complexity`. 
-    *  `Auxiliary Space` is the extra space or temporary space used by an algorithm.
+    * `Auxiliary Space` is the extra space or temporary space used by an algorithm.
     * The `space Complexity` of an algorithm is the total space taken by the algorithm with respect to the input size. Space complexity includes both Auxiliary space and space used by input.
 
 [Source](https://www.geeksforgeeks.org/g-fact-86/)
